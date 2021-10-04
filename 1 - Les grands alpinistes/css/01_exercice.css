@@ -1,0 +1,10 @@
+/* FEUILLE DE STYLE CSS - 01 EXERCICE - SEMA */
+
+table {
+    width: 100%; /* "Width" permet de définir la largeur de la boîte du contenu d'un élément. */
+}
+
+tbody tr th {
+    text-align: start; /* Text-align définit l'alignement horizontal d'un élément bloc ou de la boîte d'une cellule de tableau. */
+}
+
