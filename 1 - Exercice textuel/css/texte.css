@@ -1,0 +1,9 @@
+/* FEUILLE DE STYLE CSS - TEXTE - SEMA */
+
+abbr {
+    color: royalblue; /* Définit la couleur d'un texte. */
+}
+
+a {
+    text-decoration: none; /* text-decoration permet de « décorer » le texte en ajoutant une ligne pouvant être positionnée sous, sur ou à travers le texte et de paramétrer simultanément les propriétés « détaillées » : text-decoration-line, text-decoration-color et text-decoration-style. */
+}

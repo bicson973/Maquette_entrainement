@@ -1,0 +1,42 @@
+/* FEUILLE DE STYLE CSS - 01 ZONING - SEMA */
+
+body {
+    background-color: rgb(255, 215, 162);
+}
+
+/* EN-TÊTE */
+
+header {
+    width: 1200px;
+    height: 100px; /* height définit la hauteur du contenu d'un élément. */
+    margin: auto;
+    background-color: rgb(24, 181, 187);
+}
+
+/* CONTENU PRINCIPAL */
+
+main {
+    width: 1200px;
+    margin: auto;
+}
+
+aside {
+    width: 200px;
+    height: 600px;
+    float: left; /* float indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entoureront alors l'élément flottant. L'élément est retiré du flux normal de la page mais s'inscrit toujours dans le flux (contrairement au positionnement absolu). */
+    background-color: rgb(202, 202, 202);
+}
+
+section {
+    width: 800px;
+    height: 600px;
+    float: left; 
+    background-color: rgb(247, 166, 213); 
+}
+
+p {
+    text-align: center;
+}
+
+
+
