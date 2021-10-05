@@ -5,6 +5,6 @@ table {
 }
 
 tbody tr th {
-    text-align: start; /* Text-align définit l'alignement horizontal d'un élément bloc ou de la boîte d'une cellule de tableau. */
+    text-align: start; /* Text-align définit l'alignement horizontal d'un élément bloc */
 }
 
