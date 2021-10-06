@@ -1,0 +1,11 @@
+/* FEUILLE DE STYLE CSS - 03 ZONING - SEMA */
+
+body {
+    text-align: center;
+    background-color: rgb(150, 150, 150);
+}
+
+header {
+    display: flex;
+
+}

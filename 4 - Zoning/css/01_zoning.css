@@ -1,6 +1,7 @@
 /* FEUILLE DE STYLE CSS - 01 ZONING - SEMA */
 
 body {
+    text-align: center;
     background-color: rgb(255, 215, 162);
 }
 
@@ -27,16 +28,13 @@ aside {
     background-color: rgb(202, 202, 202);
 }
 
-section {
+section{
     width: 800px;
     height: 600px;
     float: left; 
     background-color: rgb(247, 166, 213); 
 }
 
-p {
-    text-align: center;
-}
 
 
 
