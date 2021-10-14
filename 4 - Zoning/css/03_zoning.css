@@ -1,11 +1,175 @@
 /* FEUILLE DE STYLE CSS - 03 ZONING - SEMA */
 
+/* RESET ERIC MEYER */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIN RESET ERIC MEYER  */
+
 body {
     text-align: center;
     background-color: rgb(150, 150, 150);
 }
 
+/* EN-TETE DE PAGE */
+
 header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 
+.h1 {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(0, 183, 255);
+}
+
+.h2 {
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.h3 {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(139, 0, 0);
+}
+
+/* PARTIE NAVIGUATION */
+
+nav {
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+/* CONTENU PRINCIPAL */
+
+main {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(61, 172, 180);
+}
+
+.zone-a {
+    float: left;
+    width: 300px;
+    height: 150px;
+    background-color: wheat;
+}
+
+.zone-b {
+    float: left;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(253, 184, 255);
+}
+
+.diaporama {
+    float: left;
+    width: 600px;
+    height: 150px;
+    background-color: rgb(235, 227, 115);
+}
+
+.zone-c {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(99, 240, 198);
+}
+
+.zone-d {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(16, 124, 92);
+}
+
+.zone-e {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(243, 138, 138);
+}
+
+.zone-f {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(146, 126, 126);
+}
+
+/* PIED DE PAGE */
+
+footer {
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(116, 124, 160);
 }
