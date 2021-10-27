@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Séma">
         <title>Les grands alpinistes</title>
-        <!-- Ma feuille de style css -->
         <link rel="stylesheet" href="css/les_grands_alpinistes.css">
+        <!-- Ma feuille de style css -->
     </head>
+
     <body>
-        <h1> <!-- <h1> à <h6> représentent 6 niveaux de titres dans une page HTML. <h1> est le plus important. -->
-            Les grands alpinistes
-        </h1> 
-        <p> <!-- <p> représente un paragraphe de texte. Les paragraphes sont des éléments blocs. -->
-            1/ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti perferendis quam necessitatibus eveniet alias voluptatem praesentium quasi accusamus? Corporis, impedit iure. Velit nihil repellat ab? Dicta quidem officia et ipsa!
-        </p> 
-        <p>
-            2/ Modi rem odit in at voluptatem fugit, est vero, quas eos officiis iusto voluptatibus harum rerum quod. Sapiente ipsa, at dicta ex officiis mollitia deserunt explicabo omnis suscipit sed facilis.
-        </p>
-        <p>
-            3/ Quasi blanditiis incidunt reiciendis eveniet aliquid! Sint sit cumque atque dolorum, officia dolore quisquam pariatur facilis architecto tempora qui illum! Architecto consequuntur delectus dolores est hic ipsam id eum voluptatibus.
-        </p>
-        <p>
-            1/ Nulla numquam, distinctio sunt nihil laudantium ipsum enim illum iusto quia qui quae nam reiciendis fuga iure praesentium tempora sequi esse ipsa error consectetur necessitatibus cum ut itaque explicabo. Eum.
-        </p>
-        <figure> <!-- <figure> représente un contenu autonome, éventuellement accompagné d'une légende facultative, qui est spécifiée à l'aide de l'élément <figcaption>. -->
-            <img src="img/dolomites-santa-magdalena.png" alt="dolomites-santa-magdalena"> <!-- <img> intègre une image dans le document. -->
-            <figcaption> <!-- <figcaption> représente une légende décrivant le contenu de son élément parent <figure>. -->
-                Les dolomites, dans le nord de l'Italie
-            </figcaption> 
+        <h1>Les grands alpinistes</h1> 
+        <!-- <h1> à <h6> représentent 6 niveaux de titres dans une page HTML. <h1> est le plus important. -->
+        <p>1/ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti perferendis quam necessitatibus eveniet alias voluptatem praesentium quasi accusamus? Corporis, impedit iure. Velit nihil repellat ab? Dicta quidem officia et ipsa!</p> 
+        <!-- <p> représente un paragraphe de texte. Les paragraphes sont des éléments blocs. -->
+        <p>2/ Modi rem odit in at voluptatem fugit, est vero, quas eos officiis iusto voluptatibus harum rerum quod. Sapiente ipsa, at dicta ex officiis mollitia deserunt explicabo omnis suscipit sed facilis.</p>
+        <p>3/ Quasi blanditiis incidunt reiciendis eveniet aliquid! Sint sit cumque atque dolorum, officia dolore quisquam pariatur facilis architecto tempora qui illum! Architecto consequuntur delectus dolores est hic ipsam id eum voluptatibus.</p>
+        <p>1/ Nulla numquam, distinctio sunt nihil laudantium ipsum enim illum iusto quia qui quae nam reiciendis fuga iure praesentium tempora sequi esse ipsa error consectetur necessitatibus cum ut itaque explicabo. Eum.</p>
+        <figure> 
+            <img src="img/dolomites-santa-magdalena.png" alt="dolomites-santa-magdalena"> 
+            <!-- <img> intègre une image dans le document. -->
+            <figcaption>Les dolomites, dans le nord de l'Italie</figcaption> 
+            <!-- <figcaption> représente une légende décrivant le contenu de son élément parent <figure>. -->
         </figure> 
-        <table> <!-- <table> permet de représenter un tableau de données. -->
-            <thead> <!-- <thead> définit l'en-tête des colonnes d'un tableau. -->
-                <tr> <!-- <tr> définit une ligne de cellules dans un tableau. Une ligne peut être constituée d'éléments <td> (les données des cellules) et <th> (les cellules d'en-têtes). -->
-                    <th> <!-- <th> définit une cellule d'un tableau comme une cellule d'en-tête pour un groupe de cellule. La nature de ce groupe est définie grâce aux attributs scope et headers. -->
-                        Queslque alpinistes célèbres
-                    </th>
+        <!-- <figure> représente un contenu autonome, éventuellement accompagné d'une légende facultative, qui est spécifiée à l'aide de l'élément <figcaption>. -->
+        <table> 
+            <thead> 
+                <tr> 
+                    <th>Queslque alpinistes célèbres</th>
+                    <!-- <th> définit une cellule d'un tableau comme une cellule d'en-tête pour un groupe de cellule. La nature de ce groupe est définie grâce aux attributs scope et headers. -->
                 </tr>
+                <!-- <tr> définit une ligne de cellules dans un tableau. Une ligne peut être constituée d'éléments <td> (les données des cellules) et <th> (les cellules d'en-têtes). -->
             </thead> 
-            <tbody> <!-- <tbody> permet de regrouper un ou plusieurs éléments <tr> afin de former le corps d'un tableau HTML (<table>). -->
+            <!-- <thead> définit l'en-tête des colonnes d'un tableau. -->
+            <tbody> 
                 <tr>
                     <th>Prénom</th>
                     <th>Nom de famille</th>
@@ -47,7 +43,8 @@
                     <th>Dates</th>
                 </tr>
                 <tr>
-                    <td>Jean</td> <!-- <td> définit une cellule d'un tableau qui contient des données. -->
+                    <td>Jean</td> 
+                    <!-- <td> définit une cellule d'un tableau qui contient des données. -->
                     <td>Michelle</td>
                     <td>Everest</td>
                     <td>Il est le premier avec kirikou à atteindre le sommet de l'Everest, le 29 mai 1953, à 11h30.</td>
@@ -59,12 +56,11 @@
                     <td>le 18 juin 1500</td>
                 </tr>
             </tbody>
+            <!-- <tbody> permet de regrouper un ou plusieurs éléments <tr> afin de former le corps d'un tableau HTML (<table>). -->
         </table> 
-        <p>
-            1/ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, nostrum quo voluptatibus temporibus repellat excepturi obcaecati ex molestias, assumenda ipsam error esse delectus facere minus cumque veritatis dolores deserunt. Veritatis.
-        </p>
-        <p>
-            2/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsa ipsum laudantium facilis aspernatur totam itaque atque, obcaecati vel amet quis? Nihil perspiciatis dolore esse, ab vel ipsa et dignissimos?
-        </p>
+        <!-- <table> permet de représenter un tableau de données. -->
+        <p>1/ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, nostrum quo voluptatibus temporibus repellat excepturi obcaecati ex molestias, assumenda ipsam error esse delectus facere minus cumque veritatis dolores deserunt. Veritatis.</p>
+        <p>2/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsa ipsum laudantium facilis aspernatur totam itaque atque, obcaecati vel amet quis? Nihil perspiciatis dolore esse, ab vel ipsa et dignissimos?</p>
     </body>
+    
 </html>

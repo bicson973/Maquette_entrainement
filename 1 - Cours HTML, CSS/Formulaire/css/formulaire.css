@@ -1,20 +1,25 @@
 /* FEUILLE DE STYLE CSS - 01 FORMULAIRE - SEMA */
 
 body {
-    background-color: rgb(106, 188, 190); /* Permet d'attribuer une couleur de fond à l'élément */
+    background-color: rgb(106, 188, 190); 
+    /* Permet d'attribuer une couleur de fond à l'élément */
 }
 
 .formulaire {
-    width: 60%; /* Permet de définir la largeur de la boîte du contenu d'un élément. */
-    margin: 0 auto; /* Permet d'avoir le contenu centré à la page. */
+    width: 60%; 
+    /* Permet de définir la largeur de la boîte du contenu d'un élément. */
+    margin: 0 auto; 
+    /* Permet d'avoir le contenu centré dans la page. */
     background-color: whitesmoke; 
 }
 
 h1 {
     width: 60%;
     margin: auto;
-    padding: 10px; /* Permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément (cf. les boîtes CSS). Elle synthétise padding-top, padding-right, padding-bottom, padding-left. */
-    text-align: center; /* Text-align définit l'alignement horizontal d'un élément bloc */
+    padding: 10px; 
+    /* Permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément (cf. les boîtes CSS). Elle synthétise padding-top, padding-right, padding-bottom, padding-left. */
+    text-align: center; 
+    /* Text-align définit l'alignement horizontal d'un élément bloc */
 }
 
 form {
@@ -22,18 +27,26 @@ form {
 }
 
 fieldset {
-    margin: 20px; /* Définit la taille des marges sur les quatre côtés de l'élément et permet de manipuler les autres propriétés de marges : margin-top, margin-right, margin-bottom et margin-left. */
-    border-left: 10px solid rgb(82, 139, 153); /* Permet de définir la bordure gauche d'un élément */
-    border-top: none; /* Permet de paramétrer la bordure haute d'un élément. */
-    border-right: none; /* Permet de décrire la bordure droite d'un élément. */
-    border-bottom: none; /* Définit la bordure du côté bas d'un élément. */
+    margin: 20px; 
+    /* Définit la taille des marges sur les quatre côtés de l'élément et permet de manipuler les autres propriétés de marges : margin-top, margin-right, margin-bottom et margin-left. */
+    border-left: 10px solid rgb(82, 139, 153); 
+    /* Permet de définir la bordure gauche d'un élément */
+    border-top: none; 
+    /* Permet de paramétrer la bordure haute d'un élément. */
+    border-right: none; 
+    /* Permet de décrire la bordure droite d'un élément. */
+    border-bottom: none; 
+    /* Définit la bordure du côté bas d'un élément. */
 }
 
 legend {
-    font-weight: bold; /* Permet de définir la graisse utilisée pour le texte. */
-    color: rgb(0, 0, 0); /* Définit la couleur d'un texte. */
+    font-weight: bold; 
+    /* Permet de définir la graisse utilisée pour le texte. */
+    color: rgb(0, 0, 0); 
+    /* Définit la couleur d'un texte. */
 }
 
 input {
-    margin-right: 20px; /* Définit l'espace horizontal à droite qui formera la marge à droite. On peut avoir une marge droite négative. */
+    margin-right: 20px; 
+    /* Définit l'espace horizontal à droite qui formera la marge à droite. On peut avoir une marge droite négative. */
 }
