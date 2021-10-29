@@ -1,0 +1,107 @@
+/* MA FEUILLE DE STYLE CSS - VIVA ESPANA - SEMA */
+
+/* RESET SIMPLE */ 
+
+* { 
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* FIN RESET SIMPLE */
+
+body {
+    background-image: url("../img/concrete-texture.png");
+    /* La propriété background-image permet de définir une ou plusieurs images comme arrière-plan pour un élément. */
+}
+
+/* =================================== EN-TETE DE PAGE =================================== */
+
+header {
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 139, 173);
+}
+
+/* =================================== NAVIGUATION PRINCPALE =================================== */
+
+nav {
+    background-color:whitesmoke;
+}
+
+#menu-haut {
+    padding-left: 20px;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #fff;
+}
+
+form {
+    margin-top: 10px;
+    background-color: rgb(0, 173, 185);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+main {
+    padding-top: 20px;
+    padding-left: 50px;
+    margin: auto;
+    height: 600px;
+    width: 1200px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: powderblue;
+}
+
+article {
+    float: left;
+    margin: 0 auto;
+    /* La propriété float indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entoureront alors l'élément flottant. L'élément est retiré du flux normal de la page mais s'inscrit toujours dans le flux (contrairement au positionnement absolu). */
+    width: 700px;
+}
+
+aside {
+    float: left;
+    padding-left: 30px;
+    width: 400px;
+}
+
+.clear {
+    clear: both;
+    /* La propriété clear indique si un élément peut être situé à côté d'éléments flottants qui le précèdent ou s'il doit être déplacé vers le bas pour être en dessous de ces éléments. La propriété clear s'applique aux éléments flottants comme aux éléments non-flottants. */
+}
+
+/* =================================== PIED DE PAGE =================================== */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color:lightgrey;
+}
+
+/* =================================== FIN CSS =================================== */

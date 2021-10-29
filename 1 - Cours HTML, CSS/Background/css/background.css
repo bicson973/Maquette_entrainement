@@ -58,5 +58,47 @@ table {
 /* FIN RESET ERIC MEYER  */
 
 body {
-  background-image: url("../img/concrete-texture.png"); /* La propriété background-image permet de mettre une ou plusieurs images en arrière plan pour un élément. */
+	font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+	/* La propriété font-family permet de définir une liste ordonnée, par priorité de polices à utiliser pour mettre en forme le texte de l'élément ciblé. */
+  	background-image: url("../img/concrete-texture.png"); 
+  	/* La propriété background-image permet de mettre une ou plusieurs images en arrière plan pour un élément. */
 }
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+main {
+	margin: 0 auto;
+	/* margin 0 auto permet de centrer horizontalement l'élément dans son parent */
+	width: 1050px;
+	/* La propriété width permet de définir la largeur d'un élément. Par défaut, sa valeur est auto, c'est à dire la largeur automatiquement calculée de son contenu. */
+	padding: 50px;
+	/* La propriété padding permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément (cf. les boîtes CSS). Elle synthétise padding-top, padding-right, padding-bottom, padding-left. */
+	border-left: 50px solid rgba(16, 166, 172, 0.467);
+	/* La propriété border-left permet de définir la bordure gauche d'un élément */
+	background: linear-gradient( #fff, rgba(16, 166, 172, 0.467));
+	/* La propriété background permet de définir les différentes valeurs des propriétés liées à l'arrière-plans d'un élément (couleur, image, origine, taille, répétition, etc.). */
+}
+
+h1 { 
+	text-align: center;
+	/* La propriété text-align définit l'alignement horizontal d'un élément de bloc ou de la boîte d'une cellule de tableau. Cette propriété fonctionne donc de façon analogue à vertical-align mais dans le sens horizontal. */
+	width: 1100px;
+	background-color:rgb(248, 206, 253);
+	/* La propriété background-color permet de définir la couleur utilisée pour l'arrière-plan d'un élément. */
+}
+
+h2 {
+	text-align: center;
+	width: 1100px;
+	background-color: white; 
+}
+
+p {
+	text-align: justify;
+	/* Le texte est justifié. Les bords gauche et droit du texte sont alignés avec les bord gauche et droit du paragraphe. */
+	background-color:rgb(206, 206, 206);
+}
+
+/* =================================== FIN CSS =================================== */
+
+

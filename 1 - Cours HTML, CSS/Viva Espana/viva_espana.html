@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="...">
+        <!-- La description : phrase qui s'affiche et décrit le site dans un resultat de moteur de recherche utile au référencement naturel -->
+        <meta name="keywords" content="...">
+        <!-- "Les mots-clefs" utiles pour les moteurs de recherche -->
+        <meta name="author" content="Séma">
+        <!-- Auteur de la page -->
+        <link rel="stylesheet" href="css/viva_espana.css">
+        <!-- Ma feuille de style css -->
+        <script src="https://kit.fontawesome.com/30d9cb2bf3.js" crossorigin="anonymous"></script>
+        <!-- Icon Font Awesome -->
+        <title>Viva Espana</title>
+        <!-- Titre du document qui s'affiche dans la barre de titre du navigateur -->
+    </head>
+
+    <body>
+        <!-- =================================== EN-TETE DE PAGE =================================== -->
+        <header>
+            <h1>&iexcl; Viva Espa&ntilde;a !</h1>
+            <!-- &iexcl; et &ntilde; sont des character entity pour les lettres spéciaux -->
+        </header>
+        <!-- =================================== NAVIGUATION PRINCIPALE =================================== -->
+        <nav>
+            <div id="menu-haut">
+            <!-- L'attribut universel id définit un identifiant qui doit être unique pour l'ensemble du document. Le but de cet attribut est de pouvoir identifier un élément lorsqu'on crée un lien, avec un fragment et qu'on souhaite manipuler avec un script ou qu'on le met en forme avec CSS. -->
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Notre équipe</a></li>
+                    <li><a href="#">Nos projets</a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+                </ul>
+                <!-- L'élément HTML <ul> représente une liste d'éléments sans ordre particulier. Il est souvent représenté par une liste à puces. -->
+                <form action="#">
+                    <input type="search" name="recherche" placeholder="Recherchez">
+                    <input type="submit" value="Allons-y !">
+                </form>
+                <!-- Le formulaire et moteur de recherche -->
+                <!-- L'élément HTML <form> représente un formulaire, c'est-à-dire une section d'un document qui contient des contrôles interactifs permettant à un utilisateur de fournir des informations. -->
+                <div class="clear"></div>
+            </div>
+        </nav>
+        <!-- L'élément HTML <nav> représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit, c'est une section destinée à la navigation dans un document (avec des menus, des tables des matières, des index, etc.). -->   
+        <!-- =================================== CONTENU PRINCIPAL =================================== -->
+        <main>
+            <article>
+                <h2>En-tête d'article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, qui pariatur vero nihil maiores perferendis optio architecto voluptas cumque obcaecati officia vitae accusantium assumenda mollitia distinctio in iusto non recusandae.
+                Inventore, atque. Voluptatum ex voluptatem doloremque ullam quidem ducimus doloribus et consequatur corrupti mollitia obcaecati, quisquam pariatur, odio a totam nesciunt eum? Laboriosam fugit eaque facere dolor culpa odio animi! ipsum, dolor sit amet consectetur adipisicing elit. Quis, harum. Iste omnis dignissimos harum velit ex expedita unde cumque, voluptatem nostrum sequi obcaecati qui est officia iusto culpa perferendis voluptatum!</p>
+                
+                <h3>Sous-section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ea? Sint doloremque autem accusantium ullam numquam id neque! Consequatur reprehenderit cumque rerum libero fugit at eum magnam, alias debitis incidunt.
+                Perspiciatis consectetur cum eum aliquid tempora earum perferendis deleniti at odio, illum nulla molestiae, doloremque ad a nam deserunt non expedita quo sequi exercitationem iure autem aliquam architecto beatae. Quibusdam. ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia non recusandae temporibus architecto. Fugit doloremque iusto provident. Cumque odio asperiores accusamus nihil dicta quia neque unde aliquam beatae sapiente.</p>
+    
+                <h3>Autre sous-section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ea? Sint doloremque autem accusantium ullam numquam id neque! Consequatur reprehenderit cumque rerum libero fugit at eum magnam, alias debitis incidunt.
+                Perspiciatis consectetur cum eum aliquid tempora earum perferendis deleniti at odio, illum nulla molestiae, doloremque ad a nam deserunt non expedita quo sequi exercitationem iure autem aliquam architecto beatae. Quibusdam. ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia non recusandae temporibus architecto. Fugit doloremque iusto provident. Cumque odio asperiores accusamus nihil dicta quia neque unde aliquam beatae sapiente.</p>
+            </article>
+            <!-- L'élément <article> représente une composition autonome dans un document, une page, une application ou un site, destinée à être distribuée ou réutilisée de manière indépendante (par exemple, dans le cadre d'une syndication). Exemples : un message de forum, un article de magazine ou de journal, ou un article de blog, une fiche produit, un commentaire soumis par un utilisateur, un widget ou gadget interactif, ou tout autre élément de contenu indépendant. -->
+            <aside>
+                <h2>Ailleurs sur notre site</h2>
+                <ul>
+                    <li><a href="#">Baila</a></li>
+                    <li><a href="#">Casa de papel</a></li>
+                    <li><a href="#">Hola</a></li>
+                    <li><a href="#">Vamos a la playa</a></li>
+                    <li><a href="#">Porqué te vas</a></li>
+                </ul>
+            </aside>
+        </main>
+        <div class="clear"></div>
+        <!-- class="clear" permet de replacer le flux de la page html -->
+        <!-- =================================== PIED DE PAGE =================================== -->
+        <footer>
+                <p>&copy; Tous droit réservés - l'agence Suresnes</p>
+                <p><i class="fab fa-instagram"></i><a href="https://www.instagram.com/lagencesuresnes/" target="_blank"> - Visitez notre instagram</a></p>
+                <!-- L'attribut target indique où ouvrir le document lié, _blank Ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet. -->
+        </footer>
+    </body>    
+</html>
