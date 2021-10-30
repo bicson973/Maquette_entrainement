@@ -1,0 +1,52 @@
+/* MA FEUILLE DE STYLE CSS - PAGE SIMPLE 2 - SEMA */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(red, green, blue, alpha);
+    background-color: rgb(0, 168, 190);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+h1 {
+    font-size: 80px;
+    /* La propriété font-size définit la taille de fonte typo utilisée pour le texte. */
+} 
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    /* La propriété text-transform définit la façon d'utiliser les lettres capitales pour le texte d'un élément. Cela permet que le texte soit écrit uniquement en majuscules, minuscules ou que chaque mot commence par une capitale. Cela permet également d'améliorer la lisibilité pour les textes avec des annotations Ruby. */
+}
+
+H3 {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(146, 119, 153);
+}
+
+p { 
+    background-color: #fff;
+}
+
+#travail {
+/* On utilise "dièse" pour déclarer un id dans une feuille CSS. ( #travail ) permet de cibler id="travail" qui se trouve dans le document HTLM. */
+    color: white;
+    background-color: rgb(160, 155, 0);
+}
+
+.vacances {
+/* On utilise le point ( . ) pour déclarer une class dans une feuille CSS. ( .vacances ) permet de cibler class="vacances" qui se trouve dans le document HTLM. */
+    font-style: italic; 
+    /* La propriété font-style permet de sélectionner une fonte italic ou oblique parmi celles listées par font-family. */
+    color: rgb(138, 133, 0);
+}
+
+/* =================================== FIN CSS =================================== */
+
+
+
+

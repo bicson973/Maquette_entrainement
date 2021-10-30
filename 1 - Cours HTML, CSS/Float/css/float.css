@@ -1,0 +1,32 @@
+/* MA FEUILLE DE STYLE CSS - FLOAT - SEMA */
+
+body {
+    background-color: rgb(0, 168, 190);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+h1 {
+    text-align: center;
+}
+
+.img-gauche {
+    float: left;
+    margin-right: 20px;
+    /* La propriété margin-right d'un élément définit l'espace horizontal à droite qui formera la marge à droite. */
+    margin-bottom: 20px;
+    /* La propriété margin-bottom définit la marge basse appliquée à un élément. On peut définir une marge négative qui rapprochera l'élément de ses voisins ou une marge positive qui l'en écartera.. */
+}
+
+.clear {
+    clear: both;
+    /* La propriété clear indique si un élément peut être situé à côté d'éléments flottants qui le précèdent ou s'il doit être déplacé vers le bas pour être en dessous de ces éléments. La propriété clear s'applique aux éléments flottants comme aux éléments non-flottants. */
+}
+
+figure img {
+    right: 40px;
+    position: relative;
+    /* Un élément positionné de façon relative est un élément dont la propriété de position calculée est relative. Dans ce cas, les propriétés top ou bottom indiquent le décalage vertical à appliquer et left ou right indiquent le décalage horizontal. */
+}
+
+/* =================================== FIN CSS =================================== */
