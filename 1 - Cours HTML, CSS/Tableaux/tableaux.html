@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="...">
+        <!-- La description : phrase qui s'affiche et décrit le site dans un resultat de moteur de recherche utile au référencement naturel -->
+        <meta name="keywords" content="...">
+        <!-- "Les mots-clefs" utiles pour les moteurs de recherche -->
+        <meta name="author" content="Séma">
+        <!-- Auteur de la page -->
+        <link rel="stylesheet" href="css/tableaux.css">
+        <!-- Ma feuille de style css externe -->
+        <title>Des tableaux</title>
+        <!-- Titre du document qui s'affiche dans la barre de titre du navigateur -->
+    </head>
+
+    <body>
+        <!-- =================================== CONTENU PRINCIPAL =================================== -->
+        <main>
+            <h1>Des tableaux</h1>
+            <h2>1er tableau :</h2>
+            <table>
+                <caption>1er tableau</caption>
+                <!-- L'élément <caption> définit la légende ou le titre d'un tableau. -->
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Annie Cordy</th>
+                        <!-- L'élément HTML <th> définit une cellule d'un tableau comme une cellule d'en-tête pour un groupe de cellule. La nature de ce groupe est définie grâce aux attributs scope et headers. -->
+                    </tr>
+                    <!-- L'élément HTML <tr> définit une ligne de cellules dans un tableau. Une ligne peut être constituée d'éléments <td> (les données des cellules) et <th> (les cellules d'en-têtes). -->
+                </thead>
+                <!-- L'élément <thead> définit un ensemble de lignes qui définit l'en-tête des colonnes d'un tableau. -->
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Téléphone</td>
+                        <td>04 95 98 74 45</td>
+                        <!-- L'élément HTML <td> définit une cellule d'un tableau qui contient des données. Cet élément fait partie du modèle de tableau. -->
+                    </tr>
+                    <tr>
+                        <td>05 95 87 88 55</td>
+                    </tr>
+                </tbody>
+                <!-- L'élément HTML <tbody> permet de regrouper un ou plusieurs éléments <tr> afin de former le corps d'un tableau HTML (<table>). -->
+            </table>
+            <!-- L'élément HTML <table> permet de représenter un tableau de données. -->
+            <!-- =================================== FIN TABLEAU 1 =================================== -->
+            <br>
+            <hr>
+            <br>
+            <h2>2ème tableau :</h2>
+            <table>
+                <caption>2ème tableau avec des balises th :</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">IDENTIFIANT</th>
+                        <th scope="col">NOMS</th>
+                        <th scope="col">PRENOMS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>N°1</td>
+                        <td>Chirac</td>
+                        <td>Jacques</td>
+                    </tr>
+                    <tr>
+                        <td>N°2</td>
+                        <td>Jospin</td>
+                        <td>Lionel</td>
+                    </tr>
+                    <tr>
+                        <td>N°3</td>
+                        <td>Mouse</td>
+                        <td>Mickey</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- =================================== FIN TABLEAU 2 =================================== -->
+            <br>
+            <hr>
+            <br>
+            <h2>3ème tableau :</h2>
+            <table>
+                <caption>3ème tableau</caption>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th colspan="2">Téléphone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tata</td>
+                        <td>06 65 35 90 78</td>
+                        <td>04 55 68 98 75</td> 
+                            </tr>
+                    <tr>
+                        <td>Yoyo</td>
+                        <td>06 65 85 90 78</td>
+                        <td>04 55 78 98 75</td>        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+                <!-- Raccourcie : tbody>tr*5>td*3>{$} -->
+                <tfoot>
+                    <tr>
+                        <th>Nom</th>
+                        <th colspan="2">Téléphone</th>
+                    </tr>
+                </tfoot>
+                <!-- L'élément HTML <tfoot> permet de définir un ensemble de lignes qui résument les colonnes d'un tableau. -->
+            </table>
+            <!-- =================================== FIN TABLEAU 3 =================================== -->
+            <br>
+            <hr>
+            <br>
+            <h2>4ème tableau : mes magasins préférés.</h2>
+            <table class="adresses">
+                <caption>Adresses // Fournisseurs</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Cie</th>
+                        <th scope="col">Contacts</th>
+                        <th scope="col">Adresses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Le pain des amis</td>
+                        <td>Maria Duroc</td>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <td>Los vinos buenos</td>
+                        <td>José Santos</td>
+                        <td>Espagne</td>
+                    </tr>
+                    <tr>
+                        <td>Kangoroo and cie</td>
+                        <td>Mike Mendel</td>
+                        <td>Australie</td>
+                    </tr>
+                    <tr>
+                        <td>Twinnings</td>
+                        <td>Helen Spike</td>
+                        <td>Royaume-Uni</td>
+                    </tr>
+                    <tr>
+                        <td>Cycles Laurent</td>
+                        <td>Pierre Laurent</td>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <td>Santini</td>
+                        <td>Jacomo Santini</td>
+                        <td>Italie</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- =================================== FIN TABLEAU 4 =================================== -->
+        </main>  
+    </body>
+</html>

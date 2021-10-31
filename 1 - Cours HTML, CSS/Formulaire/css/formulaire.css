@@ -23,7 +23,7 @@ h1 {
 }
 
 form {
-    padding: 20px;
+    padding: 10px;
 }
 
 fieldset {
@@ -44,9 +44,4 @@ legend {
     /* Permet de définir la graisse utilisée pour le texte. */
     color: rgb(0, 0, 0); 
     /* Définit la couleur d'un texte. */
-}
-
-input {
-    margin-right: 20px; 
-    /* Définit l'espace horizontal à droite qui formera la marge à droite. On peut avoir une marge droite négative. */
 }
