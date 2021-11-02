@@ -1,0 +1,45 @@
+/* MA FEUILLE DE STYLE CSS - 06 ZONING - SEMA */
+
+body {
+    background-image: url(../../Background/img/concrete-texture.png);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+main {
+    text-align: center; 
+    margin: auto; 
+    width: 1200px;
+}
+
+section {
+    float: left;
+    min-height: 400px;
+    width: 50%;
+}
+
+/* PARTIE GAUCHE */
+
+.gauche {
+    background-color:aqua;
+}
+
+/* PARTIE DROITE */
+
+.droite {
+    background-color:lightcoral;
+}
+
+.clear {
+    clear: both;
+}
+
+/* =================================== PIED DE PAGE =================================== */
+
+footer {
+    width: 1200px;
+    background-color: greenyellow;
+}
+
+/* =================================== FIN CSS =================================== */
+

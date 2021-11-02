@@ -1,0 +1,42 @@
+/* MA FEUILLE DE STYLE CSS - 02 CUBITUS - SEMA */
+
+body {
+    color: #fff;
+    background-color: rgb(255, 255, 255);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+h1 {
+    color: black;
+}
+
+a {
+    background-color: #fff;
+}
+
+.rose {
+    background-color: rgb(93, 82, 248);
+}
+
+.corail {
+    background-color: rgb(1, 141, 43);
+}
+
+.c1, .c2 {
+    float: left;
+    text-align: center;
+    margin: 5px;
+    border: 0.2em solid rgb(0, 0, 0);
+    border-radius: 10%;
+    height: 10em; 
+    width: 10em; 
+}
+
+.clear {
+    clear: both;
+}
+/* ON RETABLI LE FLUX */
+
+
+/* =================================== FIN CSS =================================== */

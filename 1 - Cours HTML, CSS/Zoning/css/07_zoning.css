@@ -1,0 +1,132 @@
+/* MA FEUILLE DE STYLE CSS - 07 ZONING - SEMA */
+
+/* RESET ERIC MEYER */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIN RESET ERIC MEYER  */
+
+body {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    background-color: #eee8aa;
+}
+
+h1, p {
+    margin: auto;
+}
+
+#zoning-7 {
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(196, 31, 59);
+}
+
+/* =================================== EN-TETE DE PAGE =================================== */
+
+#zoning-7 header {
+    height: 60px;
+    background-color: #40a497;
+}
+
+/* PARTIE NAVIGUATION */
+
+#zoning-7 nav {
+    height: 30px;
+    background-color: #9a40a4;
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+#zoning-7 section {
+    margin: 20px;
+    height: 600px;
+    background-color: pink;
+}
+
+.a, .b, .c, .d {
+    float: left;
+    height: 300px;
+    width: 50%;
+}
+
+.a {
+    background-color: #40a497;
+}
+
+.b {
+    background-color:#d69f1b;
+}
+
+.c {
+    background-color:#b1b2d8;
+}
+
+.d {
+    background-color:#0003af;
+}
+
+.clear {
+    clear: both;
+}
+
+/* =================================== PIED DE PAGE =================================== */
+
+footer {
+    height: 40px;
+    background-color: #40a497;
+}
+
+/* =================================== FIN CSS =================================== */

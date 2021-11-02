@@ -1,0 +1,32 @@
+/* MA FEUILLE DE STYLE CSS - 01 CUBITUS - SEMA */
+
+body { 
+    color: #fff;
+    background-color: rgb(139, 207, 1);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+.rose {
+    background-color: pink;
+}
+
+.corail {
+    background-color: lightcoral;
+}
+
+.c1, .c2 {
+    float: left;
+    text-align: center;
+    margin: 0.2em;
+    border: 0.2em solid white;
+    border-radius: 10% 5% 40% 0%;
+    height: 9em;
+    width: 10em;
+}
+
+.clear {
+    clear: both;
+}
+
+/* =================================== FIN CSS =================================== */
