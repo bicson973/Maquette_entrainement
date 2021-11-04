@@ -1,0 +1,73 @@
+/* MA FEUILLE DE STYLE CSS - DISPLAY - SEMA */
+
+body {
+    background-color: lightgrey;
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+main {
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    background: white;
+}
+
+section {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+p {
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    color: white;
+    background-color: lightsalmon;
+}
+
+a:hover {
+    background-color: cornflowerblue;
+}
+
+.rose {
+    background-color: pink;
+}
+
+/* La propriété display définit le type d'affichage utilisée pour le rendu d'un élément (de bloc ou en ligne) et la disposition utilisée pour ses éléments fils : grille ou boîtes flexibles. Le type d'affichage donné par display possède deux composantes : le type d'affichage extérieur qui définit comment la boîte participe au flux et le type d'affichage intérieur qui définit l'organisation des éléments enfants. */
+
+.display-none {
+    display: none;
+    /* Utiliser la propriété display avec la valeur none sur un élément entraînera son retrait de l'arbre d'accessibilité. Cet élément ainsi que ses descendants ne seront plus annoncés par les lecteurs d'écrans. */
+}
+
+.display-inline {
+    display: inline;
+    /* Affiche un élément comme un élément en ligne, aucune propriété de largeur ni de hauteur n'auront d'effets. */
+}
+
+.display-block {
+    display: block;
+    /* Affiche un élément comme un block, il commence sur une nouvelle ligne et prend toute la largeur. */
+}
+
+a.display-block {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+a.display-inline-block {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+
+/* =================================== FIN CSS =================================== */

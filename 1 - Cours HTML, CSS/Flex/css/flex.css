@@ -1,0 +1,73 @@
+/* MA FEUILLE DE STYLE CSS - FLEX - SEMA */
+
+body {
+    background-color: rgb(117, 223, 255);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+main {
+    margin: auto;
+    min-height: 400px;
+    /* La propriété min-height est utilisée afin de définir la hauteur minimale d'un élément. Elle empêche ainsi que la valeur de la propriété height devienne inférieure à min-height. */
+    width: 800px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.or {
+    background-color: gold;
+}
+
+.argent {
+    background-color: gainsboro;
+}
+
+.vert {
+    background-color: greenyellow;
+}
+
+.rose {
+    background-color: pink;
+}
+
+.flex { 
+    display: flex; 
+    /* La propriété flex est une propriété raccourcie qui définit la capacité d'un élément flexible à modifier ses dimensions afin de remplir l'espace disponible de son conteneur. 
+    Les propriétés détaillées correspondantes à cette propriété raccourcie sont flex-grow, flex-shrink et flex-basis.
+    Les éléments flexibles peuvent être étirés ou réduits pour utiliser un espace proportionnel à leur coefficient de grossissement ou de rétrécissement afin de ne pas dépasser d'un conteneur.*/
+    justify-content: space-evenly; 
+    /* La propriété CSS justify-content indique la façon dont l'espace doit être réparti entre et autour des éléments selon l'axe principal d'un conteneur flexible ou selon l'axe en ligne lorsque le conteneur est une grille. Avec space-evenly les éléments sont espacés équitablement. L'espace utilisé entre chaque élément, entre le bord du conteneur et le premier élément, et entre le dernier élément et le bord du conteneur est le même.*/
+    align-items: center; 
+    /* La propriété CSS align-items définit la valeur de align-self sur l'ensemble des éléments-fils directs. Au sein d'une grille CSS, elle contrôle l'alignement des éléments sur l'axe de bloc de la zone de grille correspondante.
+    Avec center, Les éléments sont centrés sur l'axe en bloc du conteneur.*/
+    margin: auto;
+    height: 800px;
+    width: 600px; /* si le parent est trop petit les div s'adaptent à la largeur du parent, ils vont rentrer quoi qu'il arrive */
+    background-color: wheat;
+}
+
+.flex div { 
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    width: 100px;
+}
+/* Toutes les div dans la div parente qui est flex ont une largeur définie */
+
+.h-50 {
+    height: 30%;
+}
+
+.t-cap {
+   text-transform: uppercase; 
+}
+
+.h-75 {
+    height: 70%;
+}
+
+/* =================================== FIN CSS =================================== */

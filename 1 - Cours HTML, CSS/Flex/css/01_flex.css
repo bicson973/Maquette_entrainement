@@ -1,0 +1,53 @@
+/* MA FEUILLE DE STYLE CSS - 01_FLEX - SEMA */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(25, 182, 235);
+}
+
+/* =================================== CONTENU PRINCIPAL =================================== */
+
+main {
+    margin: auto;
+    min-height: 500px;
+    width: 1200px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.or {
+    background-color: rgb(245, 219, 75);
+}
+
+.argent {
+    background-color: rgb(228, 227, 222);
+}
+
+.vert {
+    background-color: rgb(200, 245, 75);
+}
+
+.rose {
+    background-color: rgb(238, 184, 184);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* La propriété flex-direction définit la façon dont les éléments flexibles sont placés dans un conteneur flexible : elle définit l'axe principal et la direction des éléments (normale ou inversée). */
+    flex-wrap: wrap;
+    /* La propriété flex-wrap indique si les éléments flexibles sont contraints à être disposés sur une seule ligne ou s'ils peuvent être affichés sur plusieurs lignes avec un retour automatique. Si le retour à la ligne est autorisé, la propriété permet également de contrôler la direction dans laquelle les lignes sont empilées. */
+    row-gap: 60px;
+    /* La propriété row-gap définit la taille des gouttières entre les lignes d'un élément. */
+    background-color: rgb(0, 255, 255);
+}
+
+.flex div {
+    text-align: justify;  
+    width: 600px;  
+}
+
+/* =================================== FIN CSS =================================== */
