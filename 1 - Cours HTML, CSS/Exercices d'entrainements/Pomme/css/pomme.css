@@ -1,0 +1,131 @@
+/* MA FEUILLE DE STYLE CSS - POMME - SEMA */
+
+body {
+    background-color: #cf9;
+    margin: 10px auto;
+    padding: 0;
+    font-family: 'PT sans', sans-serif;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    width: 770px;
+    margin: 0 auto;
+    border: 2px solid #ab4;
+    text-align: left;
+}
+
+/* =================================== EN-TETE DE PAGE =================================== */
+
+#header {
+    background: url('../img/apple.jpg') no-repeat left top;
+    height: 250px;
+    margin: auto;
+}
+
+#header a {
+    background: url('../img/title.gif') no-repeat;
+    width: 400px;
+    height: 70px;
+    display: block; 
+    /* la propriété display et la valeur block transforment le lien "a inline" en élément de type block on peut donc lui attribuer des propriétés de taille ; on positionne l'image de fond qui a les mêmes dimensions que le cadre ainsi créé */
+    position: relative;
+    /* La propriété position définit la façon dont un élément est positionné dans un document. Les propriétés top, right, bottom et left déterminent l'emplacement final de l'élément positionné. L'élément est positionné dans le flux normal du document puis décalé, par rapport à lui-même, selon les valeurs fournies par top, right, bottom et left. Le décalage n'a pas d'impact sur la position des éléments. Aussi, l'espace fourni à l'élément sur la page est le même que celui fourni avec static. */
+    top: 15px;
+    /* Top définit une partie de la position des éléments positionnés, elle n'a aucun effet pour les éléments non-positionnés. */
+    left: 350px;
+    /* left permet de définir une partie de la position des éléments positionnés. Elle n'a aucun effet pour les éléments non-positionnés. */
+    text-indent: -5000px; 
+    /* le text-indent négatif est fait pour cacher le texte au visiteur (il est hors de la page) mais il est lu par les moteurs de recherche, il est décallé à gauche */
+}
+
+/* =================================== MENU NAVIGUATION =================================== */
+
+nav ul {
+    background: url('../img/bg_menu.gif') repeat-x 0 -25px; 
+    /* repeat-x répète l'élément uniquement à l'horizontal */
+    margin: auto;
+    padding: 0;
+    height: 40px;
+    list-style-type: none;
+    /* list-style-type permet de définir l'apparence de la puce d'un élément de liste (un cercle, un caractère, un compteur spécifique, etc.). Aucun marqueur n'est affiché. */
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    width: 130px;
+    line-height: 20px;
+    border-right: 2px solid #cf9;
+    text-decoration: none; 
+    /* Enleve le surlignement */
+    color: white;
+    font-weight: bold; 
+    /* Ajoute du gras au texte  */
+    letter-spacing: 2px; 
+    /* Espacement entre les lettres */
+}
+
+nav ul li a:hover {
+    background: url('../img/bg_menu.gif') repeat-x 0 0; 
+    /* Sur le :hover l'image se décale vers le bas */
+}
+
+/* =================================== CONTENU PRINCIPAL DE LA PAGE =================================== */
+
+#principal {
+    /* Raccourci : background-image: url(../img/bg_page.gif) no-repeat 15px 15px ; */
+    background-image: url('../img/bg_page.gif');
+    background-repeat: no-repeat;
+    /* background-repeat définit la façon dont les images utilisées en arrière-plan sont répétées. Une image d'arrière-plan pourra ainsi être répétée sur l'axe horizontal, l'axe vertical ou bien ne pas être répétée. */
+    background-position: 15px 15px;
+    /* background-position permet de définir la position initiale, relative à l'origine définie par background-origin, pour chaque image d'arrière-plan. */
+    padding: 0 30px 0 100px;
+}
+
+#principal h2 {
+    background: url('../img/little_apple.gif') no-repeat left center;
+    padding-left: 25px;
+}
+
+#principal h3 {
+    color: #9b2;
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid #9b2;
+    border-left: 1px solid #9b2;  
+}
+
+blockquote {
+    padding-left: 10px;
+    border-left: 1px solid #9b2;
+}
+
+#principal p {
+    line-height: 1.7em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+/* =================================== PIED DE PAGE =================================== */
+
+footer {
+    background: #9b2;
+    height: 60px;
+    line-height: 60px;
+}
+
+footer p {
+    color: white;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* =================================== FIN CSS =================================== */
