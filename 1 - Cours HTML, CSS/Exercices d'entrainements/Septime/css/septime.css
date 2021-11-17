@@ -1,0 +1,251 @@
+/* MA FEUILLE DE STYLE CSS - SEPTIME - SEMA */
+
+/* RESET ERIC MEYER */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIN RESET ERIC MEYER  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#container {
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
+}
+
+/* EN-TETE DE PAGE */
+
+header {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+header p {
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: .2em;
+    /* La propriété letter-spacing définit l'interlettre utilisée pour les caractères qui composent le texte. */
+}
+
+header h1 {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* LES TITRES ET LES P */
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.1em;
+    padding-top: 16px;
+}
+
+/* PARTIE NOTE */
+
+.note {
+    background: gainsboro;
+    width: 50%;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 0 0 15px 10px;
+    text-transform: uppercase;
+}
+
+/* LES STYLES POUR LA SECTION ASSIETE */
+
+#assiette .texte-assiette {
+    text-align: right;
+    padding-right: 200px;
+}
+
+#assiette h2 {
+    margin-top: 60px;
+    text-transform: none;
+    font-style: italic;
+    letter-spacing: normal;
+    border: none;
+    padding: 0;
+}
+
+#assiette hr {
+    width: 510px;
+    position: relative;
+    left: -225px;
+}
+
+#assiette p {
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: right;
+    padding-top: 0;
+}
+
+.img-assiette {
+    background: url("../img/assiette.png") no-repeat;
+    object-position: 50% 50%;
+    background-position: center;
+    background-size: 80%;
+} 
+
+/* LES AUTRES IMAGES DE RESTO */
+
+.img-resto-01 {
+    background: url("../img/resto_01_grande.jpg");
+    background-position: center; 
+    /* Permet de centrer l'image correctement */
+    background-size: cover; 
+    /* Permet de redimensionner l'image sans la deformer si elle est trop grande */
+}
+    
+.img-resto-02 {
+    background: url("../img/resto_02.jpg") no-repeat;
+    object-position: 50% 50%;
+}
+    
+.img-resto-03 {
+    background: url("../img/resto_03.jpg") no-repeat;
+    object-position: 50% 50%;
+}
+    
+.img-resto-04 {
+    background: url("../img/resto_04.jpg") no-repeat;
+    object-position: 50% 50%;
+}
+    
+.sous-section {
+    width: 500px;
+    height: 500px;
+    padding: 150px 15px 0 15px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/* PARTIE PIED DE PAGE */
+
+footer {
+    height: 350px;
+    text-align: center;
+}
+
+footer h2 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 50px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    letter-spacing: .5em;
+}
+
+footer figcaption {
+    position: relative;
+    bottom: 100px;
+}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+address {
+    font-family: serif;
+    font-size: smaller;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* FIN CSS */
+
+
+
+
+    
+
+
