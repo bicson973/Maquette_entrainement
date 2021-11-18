@@ -163,3 +163,22 @@ main {
 .clear {
     clear: both; 
 } 
+
+/* =================================== PIED DE LA PAGE =================================== */
+
+footer {
+    background-color: #fff;
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border-top: 2px solid rgb(214, 214, 214);
+    position: relative;
+    bottom: 20px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+/* =================================== FIN CSS =================================== */
