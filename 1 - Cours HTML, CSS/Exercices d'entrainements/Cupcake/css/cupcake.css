@@ -1,0 +1,236 @@
+/* MA FEUILLE DE STYLE CSS - CUPCAKE - SEMA */
+
+/* RESET ERIC MEYER */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIN RESET ERIC MEYER  */
+
+body {
+    background: repeating-linear-gradient(90deg, #E2C9D7, #E2C9D7 20px, #E9D2DF 0, #E9D2DF 40px)
+}
+
+#container {
+    background-color: #f6eff3;
+    width: 60%;
+    margin: auto;
+    border-left: 10px solid #b934a2;
+}
+
+/* LES TITRES DE LA PAGE */
+
+h2, h3, h4 {
+    color: #b934a2;
+}
+
+/* =================================== EN-TETE DE PAGE =================================== */
+
+header {
+    background-color: #fff;
+    height: 110px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* LE LOGO */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+}
+
+h1 {
+    background-color: #b934a2;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    border: solid #b934a2;
+}
+
+.adresse {
+    color: #cf73bf;
+    letter-spacing: 2px;
+}
+
+/* =================================== CONTENU PRINCIPAL DE LA PAGE =================================== */
+
+/* SECTION 1 */
+
+.s-1 {
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.s-1 h2 {
+    background-color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+p span {
+    font-size: 10px;
+}
+
+/* SECTION 2 */
+
+.s-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.s-2 div img {
+    width: 150px;
+    height: 150px;
+}
+
+.border-v {
+    background-color: #b934a2;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding-top: 3px;
+    border: solid #b934a2;
+}
+
+.s-2 div {
+    padding-right: 30px ;
+    padding-left: 5px;
+}
+
+.s-2 div h3 {
+    background-color: #fff;
+    letter-spacing: 3px;
+}
+
+/* SECTION 3 */
+
+.s-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s-3 figure img {
+    width: 280px;
+    height: 280px;
+}
+
+figcaption {
+    background-color: #faf7f9;
+    width: 280px;
+    height: 90px;
+    position: relative;
+    top: -10px;
+}
+
+/* SECTION 4 */
+
+.s-4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tableau {
+    width: 45%;
+}
+
+.map {
+    width: 50%;
+}
+
+.map img {
+    width: 420px;
+}
+
+.map h3 {
+    background-color: #fff;
+    letter-spacing: 2px;
+}
+
+.map p {
+    background-color: #fff;
+    color: #cf73bf;
+    margin-top: 3px;
+}
+
+th {
+    background-color: #fff;
+}
+
+.r1 {
+    background-color: #cf73bf;
+}
+
+table{
+    width: 350px;
+}
+
+/* =================================== FIN CSS =================================== */
