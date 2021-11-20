@@ -1,3 +1,3 @@
 // MA FEUILLE JS - TITRE DU DOCUMENT - SEMA
 
-// alert('coucou');
+// alert("le ficher fonctionne");
