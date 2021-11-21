@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="...">
+        <!-- La description : phrase qui s'affiche et décrit le site dans un resultat de moteur de recherche utile au référencement naturel -->
+        <meta name="keywords" content="...">
+        <!-- "Les mots-clefs" utiles pour les moteurs de recherche -->
+        <meta name="author" content="Séma">
+        <!-- Auteur de la page -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/fichier_type.css">
+        <!-- Ma feuille de style css externe -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/08c181196a.js" crossorigin="anonymous"></script>
+        <!-- Kit Fontawesome icon  -->
+
+        <title>Variables & Constantes - 03_Types_de_données</title>
+        <!-- Titre du document qui s'affiche dans la barre de titre du navigateur -->
+    </head>
+
+    <body class="bg-light">
+        <!-- =================================== EN-TETE DE PAGE =================================== -->
+        <header class="container-fluid bg-info p-3 text-center text-dark">
+            <h1>Cours JavaScript - Variables & constantes</h1>
+            <p class="lead">03_Types de données : Les différents types de données</p>
+        </header>
+        <!-- =================================== CONTENU PRINCIPAL DE LA PAGE =================================== -->
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Les 7 différents types de données en JS</h2>
+                    <ol>
+                        <li>
+                            <a href="#"><span class="surligner">String</span></a> ou chaine de caractères.
+                        </li>
+                        <li>
+                            <a href="#"><span class="surligner">Number</span></a> ou nombre.
+                        </li>
+                        <li>
+                            <a href="#"><span class="surligner">Boolean</span></a> ou booléen.
+                        </li>
+                        <li>
+                            <a href="#"><span class="surligner">Null</span></a> ou vide.
+                        </li>
+                        <li>
+                            <a href="#"><span class="surligner">Undefined</span></a> ou indéfini.
+                        </li>
+                        <li>
+                            <a href="#"><span class="surligner">Symbol</span></a> ou symbole.
+                        </li>
+                        <li>
+                            <a href="#"><span class="surligner">Objet</span></a> ou objet.
+                        </li>
+                    </ol>
+                    <p>
+                        Pour connaitre les types de données on utilise la fonction : <code>typeof()</code>
+                    </p>
+                </div>
+                <!-- FIN COL -->
+                <hr>
+                
+                <div class="col-12 fst-italic">
+                    <p>A propos des guillemets <code>"..."</code>, des quotes <code>'...'</code> et sur le caractère d'échappement <code>\</code></p>
+                    <p>
+                        En JavaScript, on va pouvoir utiliser indifféremment des guillemets doubles ou des quotes pour entourer une chaîne de caractères et ces deux méthodes vont être strictement équivalentes à la différence d’autres langages comme le PHP par exemple.<br> 
+                        <span class="text-danger">Attention :  
+                        <br>
+                        si votre chaîne contient un caractère qui est le même que le délimiteur de chaîne choisi, il faudra neutraliser ce caractère en l’échappant au moyen d’un antislash ou changer de délimiteur.</span>
+                    </p>
+                </div>
+                <!-- FIN COL -->
+                <hr>
+
+                <div class="col-4">
+                    <h2>1- String</h2>
+                    <p>Il faut toujours entourer nos chaines de caracteres (nos textes) avec des apostrophes (des quotes doubles ou simples quotes) ou des guillemets droits ou guillemets doubles.</p>
+                </div>
+                <!-- FIN COL -->
+                
+                
+                <!-- FIN COL -->
+                <div class="col-4">
+                    <h2>2- Number</h2>
+                    <p>Les variables en JavaScript vont également pouvoir stocker des nombres. Des nombres entiers positifs ou négatifs ou à virgule (décimaux).</p>
+                </div>
+                <!-- FIN COL -->
+
+                <div class="col-4">
+                    <h2>3- Boolean</h2>
+                    <p>Ce type de données sera utile pour verifier si un test est vrai ou faux</p>
+                    <p>Un booléen, en algèbre est une valeur binaire (soit 0, soit 1). En informatique, le type booléen est un type qui ne contient que deux valeurs : les valeurs true (vrai) et fasle (faux).</p>
+                </div>
+                <!-- FIN COL -->
+
+                <div class="col-4">
+                    <h2>4- Null</h2>
+                    <p>Null est un type un peu particulier : <code>null</code> absence de valeur non saisie.</p>
+                </div>
+                <!-- FIN COL -->
+
+                <div class="col-4">
+                    <h2>5- Undefined</h2>
+                    <p>Si on déclare une variable sans lui attribuer de valeur, alors son type sera <code>undefined</code></p>
+                </div>
+                <!-- FIN COL -->
+
+                <div class="col-4">
+                    <h2>6- Symbol & 7- Object</h2>
+                    <p>Les objets sont des structures complexes qui vont pouvoir stocker plusieurs valeurs en même temps et que nous étudierons plus tard car il s’agit là d’un sujet complexe à appréhender pour un débutant.</p>
+                   <p>Si on déclare une variable et qu’on lui passe null, alors son type sera <code>Object</code>.</p>
+                </div>
+                <!-- FIN COL -->
+
+
+            </div>
+            <!-- FIN ROW -->
+        </div> 
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="js/O3_types_de_donnees.js"></script>
+        <!-- Ma feuille JS externe : doit être placé en dernier dans le body -->
+    </body>
+</html>
