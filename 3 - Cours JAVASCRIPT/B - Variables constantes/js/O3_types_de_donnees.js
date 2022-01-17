@@ -2,13 +2,13 @@
 
 // alert("le ficher fonctionne");
 
-let string = "String est une chaine de caractère";
+let string = "est une chaine de caractère";
 console.log(typeof string, string);
 
 let number = 24; 
 console.log(typeof number, number)
 
-let boolean = true; 
+let boolean = true;
 console.log(typeof boolean, boolean);
 
 let array = ["je", "suis", 24, false]; 
@@ -23,3 +23,8 @@ console.log(typeof object, object);
 
 let arbre; 
 console.log(typeof arbre, arbre);
+
+arbre = null; 
+console.log(typeof arbre, arbre);
+
+

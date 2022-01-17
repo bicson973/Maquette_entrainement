@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!-- Font icons Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <title>Structure de contrôle - introduction</title>
+    </head>
+    <body>
+        <div class="container-fluid bg-info p-1 text-center">
+            <h1 class="display-4">Structure de contrôle - introduction</h1>
+            <p class="lead">2 types de structures de contrôles de base</p>
+        </div>
+        <div class="container">
+            <section class="row mt-4"> <!-- Section 1 -->
+                    <h2>Les conditions et les boucles</h2>
+                    <p>2 types de structures de contrôles de base, que l'on retrouve dans tous les langages de programmation, et donc en JAVASCRIPT.</p>
+                    <hr>
+                    <div class="col-sm-12">
+                        <h3>Les conditions</h3>
+                        <p>Les conditions vont nous permettre d'éxécuter un certain nombre d'instructions <span class="stabilo"><em>si seulement une certaine condition est vérifié.</em></span></p>
+                    </div>
+                    <!-- FIN COL  -->
+                    <hr>
+                    <div class="col-sm-12">
+                        <h3>Les boucles</h3>
+                        <p>Les boucles vont nous permttre d'éxécuter un <em>bloc de condition</em> en boucle tant qu'une condition donnée est vérifié.</p>
+                        <p>
+                            Exemple : <cite>Dès que mes 12 élèves sont montés dans le bus je pars.</cite>
+                        </p>
+                    </div>
+            </section>
+            <hr>
+            <section class="row mt-4 justify-content-center"> <!-- Section 2 -->
+                <div class="col-sm-12">
+                    <h3>
+                        Opérateurs de comparaison
+                    </h3>
+                    <p>
+                        Comment vérifié les conditions ?
+                    </p>
+                    <table class=" table table-striped">
+                        <caption>
+                            Opérateurs de comparaison
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>Opérateur</th>
+                                <th>Définition</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>==</p>
+                                    <p>===</p>
+                                    <p>!=</p>
+                                </td>
+                                <td>
+                                    <p>Test l'égalité sur les valeurs</p>
+                                    <p>Test l'égalité sur les valeurs et types</p>
+                                    <p>Test la différence des valeurs</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>!==</p>
+                                </td>
+                                <td>
+                                    <p>Test la différence en valeur ou en types</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>&lt;</p>
+                                    <p>&gt;</p>
+                                    <p>&lt;=</p>
+                                    <p>&gt;=</p>
+                                </td>
+                                <td>
+                                    <p>Test si une valeur est strictement inférieure à une autre</p>
+                                    <p>Test si une valeur est strictement supérieur à une autre</p>
+                                    <p>Test si une valeur est inférieur ou égale à une autre</p>
+                                    <p>Test si une valeur est supérieur ou égale à une autre</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        Dans le cas où la comparaison est vérifié, le JS renvoie le booléen <code>true</code>, dans le cas contraire, le booléen <code>false</code> est renvoyé.
+                    </p>
+                    <p>
+                        Le JS va automatiquement comparer la valeur à gauche de l'opérateur à celle de droite selon l'opérateur de comparaison.
+                    </p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+
+        <!-- Mes scripts JS en externe -->
+        <script src="01_introduction.js"></script>
+    </body>
+</html>
